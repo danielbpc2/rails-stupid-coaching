@@ -10,3 +10,24 @@
   font-weight: bolder;
   color: red;
 }
+
+p {
+  margin-bottom: 0px;
+}
+
+.answer-container {
+  display: flex;
+  margin: 10px;
+  justify-content: flex-end;
+}
+.answer-container-coach {
+  display: flex;
+  margin: 10px;
+  justify-content: flex-start;
+}
+
+.answer-bubble {
+  background-color: #ccc;
+  padding: 5px 20px;
+  border-radius: 10px;
+}

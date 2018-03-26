@@ -1,7 +1,16 @@
-<p id="question"><%=@question%></p>
-<p>- you</p>
+<div class="container text-center">
+  <div class="answer-container">
+    <div class="answer-bubble text-right">
+      <p id="question"><%=@question%></p>
+      <p>- you</p>
+    </div>
+  </div>
 
-<p class="asnwer"><strong><%=@answer%></strong></p>
-<p>- Stupid Coach</p>
-
-<%= link_to "Ask another question", ask_path%>
+  <div class="answer-container-coach">
+    <div class="answer-bubble text-left">
+      <p class="asnwer"><strong><%=@answer%></strong></p>
+      <p>- Stupid Coach</p>
+    </div>
+  </div>
+  <%= link_to "Ask another question", ask_path, :class => "btn btn-primary"%>
+</div>
